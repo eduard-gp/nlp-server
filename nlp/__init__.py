@@ -20,7 +20,7 @@ def create_app(test_config=None):
 
     app.register_blueprint(auth.blueprint)
     app.register_blueprint(routes.personas.blueprint)
-    app.register_blueprint(routes.languages.blueprint)
+    app.register_blueprint(routes.info.blueprint)
     return app
 
 app = create_app()

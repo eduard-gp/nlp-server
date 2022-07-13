@@ -1,2 +1,2 @@
 from . import personas
-from . import languages
+from . import info
