@@ -7,7 +7,7 @@ import functools
 from ..db import models
 from . import utils
 
-SESSION_DURATION_HOURS = 2
+SESSION_DURATION_HOURS = 8
 
 blueprint = Blueprint("auth", __name__, url_prefix="/auth")
 
