@@ -1,4 +1,4 @@
-# NLP UI
+# NLP Server
 
 This git repository is part of a project that implements a chatbot which
 impersonates a patient who suffers from cardiovascular diseases.
