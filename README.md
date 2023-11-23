@@ -98,11 +98,11 @@ The endpoints offer information about the supported languages and entity tags
 that are used to classify a token from a sentence.
 
 The ML module for natural language processing defines how the output of a deep
-neuronal network is used to select an answer to a question. For more information
+neural network is used to select an answer to a question. For more information
 about how the model was train see [nlp-ai](https://github.com/eduard-gp/nlp-ai).
 A ML model is selected depending on the language used or the task that has to be
 executed: text classification or named entity recognition. For the task of text
-classification the output of the deep neuronal network is the intention of the
+classification the output of the deep neural network is the intention of the
 question and the vectorial codification of the question. Because a patient can
 have multiple answers to a question, we have to select the one that fits the
 best. The similarity between answer and question is computed using TS-SS
